@@ -1,0 +1,28 @@
+.page-template-searchpage {
+	background: $off-white;
+	background-image: none !important;
+	.post-meta {
+		display: none;
+	}
+	.et_pb_row {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		border-left: none;
+		border-right: none;
+		background-color: transparent;
+		width: 100%;
+	}
+	.widget_search {
+		display: none;
+	}
+	.et_pb_search {
+		input.et_pb_searchsubmit {
+			background: $burgundy;
+			color: $white;
+			border-color: $burgundy;
+			&:hover {
+				background: $light-burgundy;
+			}
+		}
+	}
+}
